@@ -1,0 +1,29 @@
+/*Ecrire une fonction MULTIPLICATION de type float qui calcule la multiplaction de deux nombres reels */
+#include <stdio.h>
+#include <stdlib.h>
+float MULTIPLICATION(float,float);
+
+int main() {
+
+    float a,b;
+    scanf("%f%f",&a,&b);
+
+
+      
+        printf("La multiplication est : %.2f",MULTIPLICATION(a,b));
+       
+
+ 
+
+
+
+return 0;
+
+}
+float MULTIPLICATION(float a,float b){
+    return a*b;
+}
+
+
+
+
