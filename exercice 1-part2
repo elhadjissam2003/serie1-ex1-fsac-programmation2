@@ -1,0 +1,26 @@
+/*Ecrire une fonction Moyenne de type float qui calcule la moyenne arithmétique de deux nombres réels . */
+#include <stdio.h>
+#include <stdlib.h>
+float MOYENNE(float,float);
+
+
+int main() {
+
+    float a,b;
+    scanf("%f%f",&a,&b);
+    printf("La moyenne est : %.2f",MOYENNE(a,b));
+
+return 0;
+
+}
+float SOMME(float a,float b){
+    return a+b;
+
+}
+float MOYENNE(float a,float b){
+    return (SOMME(a,b))/2;
+
+}
+
+
+
